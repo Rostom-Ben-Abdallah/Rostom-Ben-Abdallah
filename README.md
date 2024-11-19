@@ -4,7 +4,7 @@
 Diving deep into the exciting world of **Object Detection Models** and exploring their real-world applications.  
 
 🧠 **Lifelong Learner**  
-Currently mastering the art of **Computer Vision** and **Artificial Intelligence** to bring innovative ideas to life.  
+Currently mastering the art of Computer Vision, Artificial Intelligence, and IoT systems to create innovative, connected solutions.  
 
 💼 **Let's Connect!**  
 Find me on [**LinkedIn**](https://www.linkedin.com/in/rostom-benabdallah-77bb441a1/) to network, collaborate, and share ideas.  
