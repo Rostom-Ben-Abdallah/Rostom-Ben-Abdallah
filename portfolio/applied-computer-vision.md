@@ -2,31 +2,76 @@
 
 This page summarizes selected engineering projects that complement my current research work in video understanding and behavioural analysis.
 
-> Some original projects were completed in industrial settings. Public descriptions focus on the transferable engineering work and intentionally omit proprietary customer data, production assets, credentials, trained production models, and internal deployment details.
+> Some original projects were completed in industrial settings. Public descriptions focus on transferable engineering work and intentionally omit proprietary customer data, production assets, credentials, trained production models, and internal deployment details.
 
-## 1. Real-Time Industrial Quality Control
+## 1. Industrial Vision: Quality Control, Segmentation & Counting
+
+**Repository:** [industrial-vision-quality-control](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control)
+
+This repository now contains short demo videos and public-safe implementations for three applied vision systems.
+
+### Bottle segmentation, counting & cap-quality inspection
+
+**Goal:** segment and track bottles, count each object once, associate cap detections and classify bottle quality.
+
+**Public project:** [bottle-cap-inspection](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control/tree/main/projects/bottle-cap-inspection)
+
+Key ideas:
+
+- YOLO instance segmentation;
+- persistent tracking with BoT-SORT;
+- line-crossing count by track ID;
+- bottle/cap association;
+- expected cap-colour validation;
+- OK / NG decisions;
+- throughput, latency and yield overlays.
+
+### Laser-marking quality control
 
 **Goal:** detect and reject visual defects on laser-marked parts under production constraints.
 
-### What I worked on
+**Public project:** [laser-marking-quality-control](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control/tree/main/projects/laser-marking-quality-control)
+
+What I worked on:
 
 - industrial-camera vision pipeline from acquisition to decision;
 - YOLO-based region / object detection;
-- OpenCV validation of geometry and position;
-- colour-difference and appearance checks;
+- OpenCV geometry and position validation;
+- colour-difference / DeltaE2000 checks;
 - OCR-oriented readability checks;
 - GPU deployment and latency optimization;
-- integration mindset for industrial stop / acknowledgement / restart logic.
+- industrial stop / acknowledgement / restart logic.
+
+The public code provides a configurable OCR + expected-position + CIEDE2000 inspection pipeline and structured PASS/FAIL reporting.
+
+### Medication segmentation & counting
+
+**Goal:** detect, segment, track and count medication packages / objects reliably while avoiding duplicate counts.
+
+**Public project page:** [medication-counting](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control/tree/main/projects/medication-counting)
+
+What I worked on:
+
+- on-site video collection;
+- polygon dataset annotation;
+- YOLOv11-seg fine-tuning;
+- ByteTrack tracking;
+- ROI crossing / counting logic;
+- hysteresis and ID filters;
+- PyQt operator interface;
+- annotated-video and Excel result export.
+
+The demo is public; original deployment code, customer configuration, weights and production data remain private.
 
 ### Engineering lesson
 
-The project required combining learned detection with deterministic validation. A production vision system must produce a reliable decision, not merely a bounding box.
-
-**Repository:** [quality-control](https://github.com/Rostom-Ben-Abdallah/quality-control)
+A production vision system must produce a repeatable **event or decision**, not merely a bounding box. Tracking state, temporal logic, validation rules, latency and operator workflow are often as important as raw detector accuracy.
 
 ---
 
 ## 2. Multi-Camera Recognition and IN/OUT Analytics
+
+**Repository:** [multicamera-tracking-reid](https://github.com/Rostom-Ben-Abdallah/multicamera-tracking-reid)
 
 **Goal:** analyse doorway traffic using multiple cameras while preserving identity through difficult viewpoints and occlusion.
 
@@ -44,28 +89,22 @@ The project required combining learned detection with deterministic validation. 
 
 Identity is a temporal systems problem. Detection, tracking, recognition, state transitions and uncertainty handling must work together to avoid duplicate or incorrect events.
 
-The original deployment code is not highlighted as a portfolio artifact because it contains environment-specific integration details. The transferable concepts are described here instead.
-
 ---
 
-## 3. Real-Time Tracking and Counting for Automated Medication Handling
+## 3. SafeVision — Multi-Camera Safety Perception
 
-**Goal:** detect, segment, track and count tablets / vials reliably while avoiding duplicate counts.
+**Repository:** [safevision-multicamera-vision](https://github.com/Rostom-Ben-Abdallah/safevision-multicamera-vision)
 
-### What I worked on
+A multi-camera safety-monitoring prototype combining:
 
-- on-site video collection;
-- polygon dataset annotation;
-- YOLO segmentation fine-tuning;
-- ByteTrack tracking;
-- ROI crossing / counting logic;
-- hysteresis and ID filters;
-- PyQt operator interface;
-- annotated-video and Excel result export.
+- YOLO object detection and tracking;
+- pose / fall reasoning;
+- face-landmark / local-region analysis;
+- real-time event logic;
+- WebSocket alert streaming;
+- augmented-reality visualization.
 
-### Engineering lesson
-
-Counting accuracy depends heavily on state logic around the tracker. Robust event logic is often as important as the detector itself.
+This project demonstrates end-to-end integration from camera perception to a downstream interactive client.
 
 ---
 
@@ -90,11 +129,11 @@ Model accuracy, computational budget and event-level reliability must be balance
 
 ---
 
-## 5. LLM + Robot Perception Experiment
+## 5. Robot Vision + LLM Teleoperation
 
-A public ROS 2 experiment combines natural-language commands, TurtleBot3 simulation, YOLO-based scene understanding and local LLM inference.
+**Repository:** [robot-vision-llm-teleop](https://github.com/Rostom-Ben-Abdallah/robot-vision-llm-teleop)
 
-**Repository:** [llm_teleop_turtlebot3](https://github.com/Rostom-Ben-Abdallah/llm_teleop_turtlebot3)
+A ROS 2 experiment combining natural-language commands, TurtleBot3 simulation, YOLO-based scene understanding and local LLM inference.
 
 This project reflects my broader interest in moving from passive visual recognition toward intelligent systems that use perception to reason and act.
 
