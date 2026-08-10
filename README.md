@@ -6,7 +6,8 @@
   <br><br>
 
   <a href="https://rostom-ben-abdallah.github.io/"><img src="https://img.shields.io/badge/🌐_OPEN_LIVE_PORTFOLIO-Computer_Vision_Research-16c7e8?style=for-the-badge" alt="Open live portfolio" /></a>
-  <a href="https://rostom-ben-abdallah.github.io/cv.html"><img src="https://img.shields.io/badge/📄_ACADEMIC_CV-View_Online-7c83fd?style=for-the-badge" alt="View academic CV" /></a>
+  <a href="https://rostom-ben-abdallah.github.io/cv.html"><img src="https://img.shields.io/badge/📄_CV_EN-English-7c83fd?style=for-the-badge" alt="View English academic CV" /></a>
+  <a href="https://rostom-ben-abdallah.github.io/cv-fr.html"><img src="https://img.shields.io/badge/📄_CV_FR-Français-286f9f?style=for-the-badge" alt="Voir le CV académique en français" /></a>
   <a href="#featured-applied-computer-vision-demos"><img src="https://img.shields.io/badge/▶_PROJECT_DEMOS-Explore-57d9a3?style=for-the-badge" alt="Explore project demos" /></a>
 
   <p><strong>↑ Click the banner or “OPEN LIVE PORTFOLIO” to view the complete interactive research site.</strong></p>
@@ -86,7 +87,7 @@ OpenCV · PyTorch · YOLO · RF-DETR · GroundingDINO · SAM · MediaPipe · Ins
 ByteTrack · BoT-SORT · OSNet · temporal identity logic · ROI / event pipelines
 
 **Deployment / Systems**  
-Linux · CUDA/cuDNN · ONNX · Raspberry Pi · ESP32 · Git · HPC/Slurm · PyQt · Node-RED · ROS 2
+Linux · CUDA/cuDNN · ONNX · Raspberry Pi · ESP32 · Git · HPC/Slurm · PyQt · Node-RED · ROS 2 · Nav2
 
 ## Research interests
 
@@ -113,6 +114,8 @@ Higher Institute of Industrial Management of Sfax (ISGIS)
 - **Email:** rostom.ben.abdallah@umoncton.ca
 - **LinkedIn:** [Rostom Ben Abdallah](https://www.linkedin.com/in/rostom-ben-abdallah-77bb441a1/)
 - **Portfolio:** [rostom-ben-abdallah.github.io](https://rostom-ben-abdallah.github.io/)
+- **CV (English):** [rostom-ben-abdallah.github.io/cv.html](https://rostom-ben-abdallah.github.io/cv.html)
+- **CV (Français):** [rostom-ben-abdallah.github.io/cv-fr.html](https://rostom-ben-abdallah.github.io/cv-fr.html)
 - **Location:** Sfax, Tunisia / currently conducting research in Canada
 
 ---
