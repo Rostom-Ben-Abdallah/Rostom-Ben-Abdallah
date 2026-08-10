@@ -2,6 +2,8 @@
 
 **Industrial Computer Engineering | Computer Vision | Visual AI | Robotics Perception**
 
+🔗 **[Research Portfolio — rostom-ben-abdallah.github.io](https://rostom-ben-abdallah.github.io/)** · [Academic CV](https://rostom-ben-abdallah.github.io/cv.html)
+
 I am an Industrial Computer Engineering student at **ENET'Com** and a **Mitacs research intern at Université de Moncton**, working on applied computer vision for automated behavioural monitoring from video.
 
 My core interests are **object detection, multi-object tracking, segmentation, re-identification, action recognition, video understanding, multimodal perception, and real-time/edge AI**.
@@ -50,6 +52,8 @@ Short video demonstrations are included directly in the repository.
 ### [SafeVision — Multi-Camera Safety Perception](https://github.com/Rostom-Ben-Abdallah/safevision-multicamera-vision)
 Multi-camera detection, tracking, pose analysis and event reasoning with structured alerts delivered to an augmented-reality client.
 
+🏆 **2nd Place — DIGILOG Process Optimization Challenge (May 2025)** for the SIVAR / SafeVision project. [View the official certificate and recognition section](https://rostom-ben-abdallah.github.io/#award).
+
 ### [Robot Vision + LLM Teleoperation](https://github.com/Rostom-Ben-Abdallah/robot-vision-llm-teleop)
 ROS 2 / TurtleBot3 research demo combining natural-language robot commands, local LLM inference and YOLO-based scene understanding.
 
@@ -96,6 +100,7 @@ Higher Institute of Industrial Management of Sfax (ISGIS)
 
 - **Email:** rostom.ben.abdallah@umoncton.ca
 - **LinkedIn:** [Rostom Ben Abdallah](https://www.linkedin.com/in/rostom-ben-abdallah-77bb441a1/)
+- **Portfolio:** [rostom-ben-abdallah.github.io](https://rostom-ben-abdallah.github.io/)
 - **Location:** Sfax, Tunisia / currently conducting research in Canada
 
 ---
