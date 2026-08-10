@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Rostom Ben Abdallah — Live Computer Vision Research Portfolio</title>
+  <desc id="desc">Clickable banner for the live research portfolio</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="0.55" stop-color="#0b1830"/>
+      <stop offset="1" stop-color="#11152f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#54d9ff"/>
+      <stop offset="0.52" stop-color="#8fb5ff"/>
+      <stop offset="1" stop-color="#7cf3c3"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <g opacity="0.14" stroke="#9db4dd">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
+    <path d="M120 0V300M240 0V300M360 0V300M480 0V300M600 0V300M720 0V300M840 0V300M960 0V300M1080 0V300"/>
+  </g>
+  <circle cx="1040" cy="78" r="140" fill="#54d9ff" opacity="0.06"/>
+  <circle cx="1100" cy="245" r="170" fill="#9a84ff" opacity="0.055"/>
+  <g transform="translate(62 58)">
+    <circle cx="12" cy="12" r="7" fill="#7cf3c3" filter="url(#glow)"/>
+    <text x="34" y="18" fill="#92a3bd" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" letter-spacing="2">LIVE RESEARCH PORTFOLIO</text>
+    <text x="0" y="88" fill="#f4f7ff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800">Rostom Ben Abdallah</text>
+    <text x="0" y="132" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">Computer Vision · Visual AI · Robotics Perception</text>
+    <text x="0" y="180" fill="#92a3bd" font-family="Arial, Helvetica, sans-serif" font-size="20">Research · playable demos · award · academic CV</text>
+  </g>
+  <g transform="translate(914 112)">
+    <rect width="224" height="68" rx="17" fill="url(#accent)"/>
+    <text x="112" y="43" text-anchor="middle" fill="#061321" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">OPEN PORTFOLIO  →</text>
+  </g>
+</svg>
