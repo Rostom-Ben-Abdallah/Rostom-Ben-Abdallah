@@ -25,11 +25,16 @@ My current research focuses on an end-to-end computer vision pipeline for behavi
 
 > **Confidentiality note:** research data, internal code, trained models, private annotations, infrastructure details, and unpublished results from active collaborations are not published. Public material focuses on independently written, transferable engineering methods.
 
-### Read the research case study
+### Research case study
 
 ➡️ **[Multi-Camera Computer Vision for Animal Behaviour Understanding](portfolio/mitacs-animal-behavior-vision.md)**
 
 This case study explains the research problem, system architecture, tracking / identity challenges, temporal behaviour-recognition workflow, HPC processing and human-review strategy without exposing confidential assets.
+
+### Public-safe code demo
+
+➡️ **[Temporal Animal Behaviour Pipeline Demo](demos/README.md)**  
+A from-scratch synthetic demonstration of confidence-aware identity stabilization, per-track temporal windows, motion descriptors and structured CSV export. It contains no private research code or data.
 
 ## Applied computer vision experience
 
