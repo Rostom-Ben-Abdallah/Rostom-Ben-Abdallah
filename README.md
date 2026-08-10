@@ -1,8 +1,20 @@
+<div align="center">
+  <a href="https://rostom-ben-abdallah.github.io/">
+    <img src="assets/live-portfolio-banner.svg" width="100%" alt="Open Rostom Ben Abdallah's live computer vision research portfolio" />
+  </a>
+
+  <br><br>
+
+  <a href="https://rostom-ben-abdallah.github.io/"><img src="https://img.shields.io/badge/🌐_OPEN_LIVE_PORTFOLIO-Computer_Vision_Research-16c7e8?style=for-the-badge" alt="Open live portfolio" /></a>
+  <a href="https://rostom-ben-abdallah.github.io/cv.html"><img src="https://img.shields.io/badge/📄_ACADEMIC_CV-View_Online-7c83fd?style=for-the-badge" alt="View academic CV" /></a>
+  <a href="#featured-applied-computer-vision-demos"><img src="https://img.shields.io/badge/▶_PROJECT_DEMOS-Explore-57d9a3?style=for-the-badge" alt="Explore project demos" /></a>
+
+  <p><strong>↑ Click the banner or “OPEN LIVE PORTFOLIO” to view the complete interactive research site.</strong></p>
+</div>
+
 # Rostom Ben Abdallah
 
 **Industrial Computer Engineering | Computer Vision | Visual AI | Robotics Perception**
-
-🔗 **[Research Portfolio — rostom-ben-abdallah.github.io](https://rostom-ben-abdallah.github.io/)** · [Academic CV](https://rostom-ben-abdallah.github.io/cv.html)
 
 I am an Industrial Computer Engineering student at **ENET'Com** and a **Mitacs research intern at Université de Moncton**, working on applied computer vision for automated behavioural monitoring from video.
 
