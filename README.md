@@ -66,8 +66,8 @@ Multi-camera detection, tracking, pose analysis and event reasoning with structu
 
 🏆 **2nd Place — DIGILOG Process Optimization Challenge (May 2025)** for the SIVAR / SafeVision project. [View the official certificate and recognition section](https://rostom-ben-abdallah.github.io/#award).
 
-### [Robot Vision + LLM Teleoperation](https://github.com/Rostom-Ben-Abdallah/robot-vision-llm-teleop)
-ROS 2 / TurtleBot3 research demo combining natural-language robot commands, local LLM inference and YOLO-based scene understanding.
+### [LLM-Guided TurtleBot3 — Vision, SLAM & Nav2](https://rostom-ben-abdallah.github.io/projects/turtlebot3.html)
+ROS 2 Humble intelligent-robotics project combining **natural-language teleoperation, YOLOv8n scene understanding, SLAM mapping, Nav2 waypoint navigation, LiDAR safety logic and a PyQt operator dashboard** for TurtleBot3 Waffle Pi. Team project with Mohamed Benhasan, supervised by Mohamed Slim Masmoudi. [Public ROS 2 / vision code →](https://github.com/Rostom-Ben-Abdallah/robot-vision-llm-teleop)
 
 ### [Multi-Camera Tracking & Re-Identification](https://github.com/Rostom-Ben-Abdallah/multicamera-tracking-reid)
 Applied prototype exploring live camera ingestion, detection/tracking, visual identity association, cross-camera concepts and temporal IN/OUT event reasoning.
