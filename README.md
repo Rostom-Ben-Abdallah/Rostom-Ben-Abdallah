@@ -31,23 +31,32 @@ My current research focuses on an end-to-end computer vision pipeline for behavi
 
 This case study explains the research problem, system architecture, tracking / identity challenges, temporal behaviour-recognition workflow, HPC processing and human-review strategy without exposing confidential assets.
 
-### Public-safe code demo
+### Public-safe research demo
 
 ➡️ **[Temporal Animal Behaviour Pipeline Demo](demos/README.md)**  
 A from-scratch synthetic demonstration of confidence-aware identity stabilization, per-track temporal windows, motion descriptors and structured CSV export. It contains no private research code or data.
 
-## Applied computer vision experience
+## Featured applied computer vision demos
 
-I have also built applied systems for:
+### [Industrial Computer Vision — Quality Control, Segmentation & Counting](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control)
+A public engineering showcase with **three real-time vision demos** and shareable code:
 
-- real-time industrial visual quality control
-- multi-camera recognition and IN/OUT analytics
-- detection / segmentation + tracking for medication counting
-- edge-AI poultry counting
-- embedded and GPU-accelerated vision
-- ROS 2 robot perception with YOLO + local LLMs
+- **[Bottle segmentation, counting & cap-quality inspection](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control/tree/main/projects/bottle-cap-inspection)** — YOLO instance segmentation, tracking, cap association, colour checking, OK/NG classification and one-time counting.
+- **[Laser-marking quality control](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control/tree/main/projects/laser-marking-quality-control)** — OCR, position validation, CIEDE2000 colour checks and structured PASS/FAIL reporting.
+- **[Medication segmentation & counting](https://github.com/Rostom-Ben-Abdallah/industrial-vision-quality-control/tree/main/projects/medication-counting)** — YOLOv11-seg, ByteTrack and ROI/hysteresis logic for reliable counting.
 
-➡️ **[Applied Computer Vision Portfolio](portfolio/applied-computer-vision.md)**
+Short video demonstrations are included directly in the repository.
+
+### [SafeVision — Multi-Camera Safety Perception](https://github.com/Rostom-Ben-Abdallah/safevision-multicamera-vision)
+Multi-camera detection, tracking, pose analysis and event reasoning with structured alerts delivered to an augmented-reality client.
+
+### [Robot Vision + LLM Teleoperation](https://github.com/Rostom-Ben-Abdallah/robot-vision-llm-teleop)
+ROS 2 / TurtleBot3 research demo combining natural-language robot commands, local LLM inference and YOLO-based scene understanding.
+
+### [Multi-Camera Tracking & Re-Identification](https://github.com/Rostom-Ben-Abdallah/multicamera-tracking-reid)
+Applied prototype exploring live camera ingestion, detection/tracking, visual identity association, cross-camera concepts and temporal IN/OUT event reasoning.
+
+➡️ **[Full Applied Computer Vision Portfolio](portfolio/applied-computer-vision.md)**
 
 ## Technical stack
 
@@ -62,20 +71,6 @@ ByteTrack · BoT-SORT · OSNet · temporal identity logic · ROI / event pipelin
 
 **Deployment / Systems**  
 Linux · CUDA/cuDNN · ONNX · Raspberry Pi · ESP32 · Git · HPC/Slurm · PyQt · Node-RED · ROS 2
-
-## Selected computer vision projects
-
-### [Industrial Vision Quality Control](https://github.com/Rostom-Ben-Abdallah/quality-control)
-Real-time industrial inspection combining learned detection with deterministic OpenCV validation and production-oriented PASS / FAIL reasoning.
-
-### [SafeVision AR — Multi-Camera Safety Perception](https://github.com/Rostom-Ben-Abdallah/sivar-f)
-Multi-camera detection, tracking, pose analysis and event reasoning with structured alerts delivered to an augmented-reality client.
-
-### [Robot Vision + LLM Teleoperation](https://github.com/Rostom-Ben-Abdallah/llm_teleop_turtlebot3)
-ROS 2 / TurtleBot3 research demo combining natural-language robot commands, local LLM inference and YOLO-based scene understanding.
-
-### [Multi-Camera Vision & Identity Analytics](https://github.com/Rostom-Ben-Abdallah/sac)
-Applied prototype exploring live camera ingestion, detection/tracking, visual identity association, cross-camera concepts and temporal IN/OUT event reasoning.
 
 ## Research interests
 
