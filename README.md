@@ -63,15 +63,19 @@ ByteTrack · BoT-SORT · OSNet · temporal identity logic · ROI / event pipelin
 **Deployment / Systems**  
 Linux · CUDA/cuDNN · ONNX · Raspberry Pi · ESP32 · Git · HPC/Slurm · PyQt · Node-RED · ROS 2
 
-## Selected public repositories
+## Selected computer vision projects
 
-### [`quality-control`](https://github.com/Rostom-Ben-Abdallah/quality-control)
-Real-time industrial computer-vision quality-control prototype combining learned detection with deterministic OpenCV validation and production-oriented PASS / FAIL logic.
+### [Industrial Vision Quality Control](https://github.com/Rostom-Ben-Abdallah/quality-control)
+Real-time industrial inspection combining learned detection with deterministic OpenCV validation and production-oriented PASS / FAIL reasoning.
 
-### [`llm_teleop_turtlebot3`](https://github.com/Rostom-Ben-Abdallah/llm_teleop_turtlebot3)
-ROS 2 / TurtleBot3 experiment combining natural-language robot commands, local LLM inference and YOLO-based scene understanding.
+### [SafeVision AR — Multi-Camera Safety Perception](https://github.com/Rostom-Ben-Abdallah/sivar-f)
+Multi-camera detection, tracking, pose analysis and event reasoning with structured alerts delivered to an augmented-reality client.
 
-> Other repositories on this account include coursework, experiments and legacy prototypes. The projects above and the portfolio case studies are the best representation of my current computer-vision / AI direction.
+### [Robot Vision + LLM Teleoperation](https://github.com/Rostom-Ben-Abdallah/llm_teleop_turtlebot3)
+ROS 2 / TurtleBot3 research demo combining natural-language robot commands, local LLM inference and YOLO-based scene understanding.
+
+### [Multi-Camera Vision & Identity Analytics](https://github.com/Rostom-Ben-Abdallah/sac)
+Applied prototype exploring live camera ingestion, detection/tracking, visual identity association, cross-camera concepts and temporal IN/OUT event reasoning.
 
 ## Research interests
 
